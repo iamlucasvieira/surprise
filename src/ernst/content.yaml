@@ -1,0 +1,142 @@
+advice:
+  - Always commit early and commit often... even your mistakes.
+  - Never deploy on Friday. Or Monday. Or honestly, just don't deploy.
+  - Write code like the person maintaining it is your future self… with a grudge.
+  - Document your code like you're explaining it to your dog.
+  - If it works, don't touch it. If it doesn't, blame your coworker.
+  - Rubber duck debugging works best with a judgmental duck.
+  - Never optimize code you haven't even written yet.
+  - "Test coverage is like flossing: everyone lies about it."
+  - Be the semicolon you wish to see in the codebase.
+  - Never go to production without a plan... or snacks.
+  - Naming things is hard. Naming people is easier. Consider that.
+  - Your keyboard is your sword. Type responsibly.
+  - Technical debt is just a startup's savings account.
+  - Every bug is a misunderstood feature.
+  - Sometimes you just need to reboot… yourself.
+  - Your commit history tells your life story. Make it dramatic.
+  - Whitespace matters. So does personal space.
+  - Every TODO is a cry for help from your past self.
+  - Code like no one is watching… but write docs like everyone is.
+  - You can't spell 'debugging' without 'bug'. Coincidence?
+
+joke:
+  - Why do Java developers wear glasses? Because they don't C#.
+  - I told my computer I needed a break, and now it won't stop sending me beach wallpapers.
+  - My code never has bugs. It just develops unexpected features.
+  - Why did the developer go broke? Because he used up all his cache.
+  - I used to play piano by ear. Now I use my hands.
+  - Why don't programmers like nature? Too many bugs.
+  - I told my wife I was debugging. That's my story and I'm sticking to it.
+  - Why do Python programmers wear glasses? Because they can't C.
+  - Git commit -m 'YOLO' — the fastest path to production.
+  - Have you heard about the object-oriented comedian? He inherited all the jokes.
+  - I wrote clean code once. Then someone else touched it.
+  - Why was the computer cold? It left its Windows open.
+  - My dog ate my source code. Now it only fetches.
+  - Why did the dev get kicked out of school? Too many class violations.
+  - I refactored my code and now it doesn't recognize me.
+  - I put my resume into the compiler. It threw an error.
+  - "404: Joke not found."
+  - Why do programmers always mix up Halloween and Christmas? Because Oct 31 == Dec 25.
+  - The best thing about a Boolean is even if you're wrong, you're only off by a bit.
+  - "There are 10 types of people: those who understand binary and those who don't."
+
+roast:
+  - You debug with print statements? Bold. Primitive. Effective.
+  - Your code is like a mystery novel. Except no one wants to solve it.
+  - That commit message? I've seen better explanations from fortune cookies.
+  - You use tabs *and* spaces? What are you, chaotic neutral?
+  - Your code compiles, but so does regret.
+  - I've seen spaghetti code with more structure.
+  - "At least your code has one fan: the CPU fan running at full speed."
+  - You must be a magician — turning logic into confusion!
+  - Your repo should come with a warning label.
+  - You're writing self-documenting code? It's speaking in riddles.
+  - I've seen obfuscated code. Yours is worse — it's sincere.
+  - Every time I read your code, I hear a laugh track.
+  - I asked ChatGPT to read your code. It asked for hazard pay.
+  - You should name your branch 'trainwreck'.
+  - Are your unit tests named after Greek tragedies?
+  - You put the 'why' in 'while loop'.
+  - Your CSS made my eyes hurt. I'm on medical leave.
+  - You redefined 'undefined behavior'.
+  - Git blamed you. So did I.
+  - You're the reason the CI cries at night.
+
+commit:
+  message:
+    - YOLO.
+    - Fixed it, I think.
+    - Don't ask.
+    - Works on my machine.
+    - Added a thing. It does stuff.
+    - Temporary fix. Definitely not permanent. Nope.
+    - I have no idea what I'm doing.
+    - Shhh… it compiles.
+    - Commiting from the void.
+    - Undoing the thing I did that broke everything.
+    - It's not a bug, it's an undocumented feature.
+    - Magic. Don't touch.
+    - Final final fix (for real this time).
+    - Refactored everything and broke nothing. Trust me.
+    - Applied dark wizardry.
+    - You wouldn't get it.
+    - Panic committed.
+    - Here be dragons 🐉.
+    - Made it worse before making it better.
+    - This is why we write tests… right?
+    - Merged chaos into master.
+    - Tried turning it off and on again (in code).
+    - My rubber duck approves.
+    - Code needs caffeine. So do I.
+    - Future me will regret this.
+    - I regret nothing.
+    - Gave up. It's your problem now.
+    - Added comments. Removed understanding.
+    - Works by accident.
+    - Ship it. 🚀
+
+  categories:
+    fix:
+      - patched
+      - unbroke
+      - tweaked
+      - hammered
+      - tamed
+    feature:
+      - added
+      - unleashed
+      - enabled
+      - conjured
+      - summoned
+    test:
+      - asserted
+      - provoked
+      - challenged
+      - mocked
+      - judged
+    refactor:
+      - refactored
+      - modified
+      - made it worst
+      - made it slower
+
+  endings:
+    - for now.
+    - probably.
+    - I just don't know.
+    - I hope so.
+    - I'm not sure.
+    - don't ask how.
+    - and it screamed.
+    - against all odds.
+    - because it felt right.
+    - in exchange for my soul.
+    - randomly.
+    - with style.
+
+  templates:
+    - "{category} {description}, {ending}"
+    - "{category} {description} {ending}"
+    - "Turns out, I had to {category} the {description}, {ending}"
