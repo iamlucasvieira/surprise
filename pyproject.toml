@@ -10,3 +10,7 @@ dependencies = [
 
 [project.scripts]
 ernst = "main:app"
+
+[tool.uv]
+package = true
+
