@@ -3,6 +3,8 @@ from .jokes import get_joke
 from typing import Annotated
 from .content import CommitCategories
 from .commit import get_commit_message
+from .advice import get_advice
+from .wait import render_wait_progress
 
 ASCII_ART = """
     A CLI that's actually funny!\n
@@ -38,6 +40,30 @@ def joke(
 
     joke = get_joke(word)
     typer.echo(joke.joke)
+
+
+@app.command()
+def advice():
+    """
+    Get an advice
+    """
+    typer.echo(get_advice())
+
+
+@app.command()
+def wait(
+    seconds: Annotated[
+        int,
+        typer.Argument(
+            help="The number of seconds to wait",
+        ),
+    ],
+) -> None:
+    """
+    Wait for a number of seconds
+    """
+    typer.echo(f"Waiting for {seconds} seconds... In this time:")
+    render_wait_progress(seconds)
 
 
 @app.command()

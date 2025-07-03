@@ -65,38 +65,6 @@ roast:
   - You're the reason the CI cries at night.
 
 commit:
-  message:
-    - YOLO.
-    - Fixed it, I think.
-    - Don't ask.
-    - Works on my machine.
-    - Added a thing. It does stuff.
-    - Temporary fix. Definitely not permanent. Nope.
-    - I have no idea what I'm doing.
-    - Shhh… it compiles.
-    - Commiting from the void.
-    - Undoing the thing I did that broke everything.
-    - It's not a bug, it's an undocumented feature.
-    - Magic. Don't touch.
-    - Final final fix (for real this time).
-    - Refactored everything and broke nothing. Trust me.
-    - Applied dark wizardry.
-    - You wouldn't get it.
-    - Panic committed.
-    - Here be dragons 🐉.
-    - Made it worse before making it better.
-    - This is why we write tests… right?
-    - Merged chaos into master.
-    - Tried turning it off and on again (in code).
-    - My rubber duck approves.
-    - Code needs caffeine. So do I.
-    - Future me will regret this.
-    - I regret nothing.
-    - Gave up. It's your problem now.
-    - Added comments. Removed understanding.
-    - Works by accident.
-    - Ship it. 🚀
-
   categories:
     fix:
       - patched
@@ -124,13 +92,61 @@ commit:
 
   endings:
     - for now.
-    - probably.
-    - I hope so.
-    - I'm not sure.
+    - I hope it works.
     - don't ask how.
     - and it screamed.
-    - against all odds.
     - because it felt right.
-    - in exchange for my soul.
-    - randomly.
-    - with style.
+    - YOLO.
+    - Don't ask.
+    - works on my machine.
+    - added a thing. It does stuff.
+    - temporary fix. Definitely not permanent. Nope.
+    - I have no idea what I'm doing.
+    - undoing the thing I did that broke everything.
+    - It's not a bug, it's an undocumented feature.
+    - magic. Don't touch.
+    - final final fix (for real this time).
+    - You wouldn't get it.
+    - panic committed.
+    - made it worse before making it better.
+    - merged chaos into master.
+    - my rubber duck approves.
+    - future me will regret this.
+    - I regret nothing.
+    - gave up. It's your problem now.
+    - added comments. Removed understanding.
+    - works by accident.
+    - ship it. 🚀
+
+wait_items:
+  - Someone, somewhere, used PHP unironically.
+  - A junior dev is still waiting for their Docker build to finish.
+  - Someone added another TODO that will never be done.
+  - A senior dev just said, “It works on my machine” for the third time today.
+  - Another microservice was born… and promptly failed health checks.
+  - Someone opened a Jira ticket, closed it, and reopened it out of spite.
+  - A Stack Overflow answer was copied without reading the question.
+  - Yet another meeting was scheduled about meetings.
+  - Someone rage-quit Vim... again.
+  - A developer got into a heated tabs vs spaces debate.
+  - A test passed locally but failed in CI. Naturally.
+  - An AI wrote better code than someone's entire team.
+  - A coworker accidentally pushed to `main` again.
+  - Someone forgot a semicolon in production. Again.
+  - A React developer added another hook they don't understand.
+  - Someone tried to name a variable... and gave up.
+  - A junior dev merged without reading the PR. Brave.
+  - A cloud bill just doubled for no reason.
+  - Someone's `rm -rf /` was... effective.
+  - A cat walked on a keyboard and submitted a pull request.
+  - Someone created a branch named `please-work-final-v2-REAL`.
+  - A dev wrote `fix` as a commit message. That's it.
+  - Another Slack thread died mid-discussion, never to be resolved.
+  - Someone forgot their VPN was on and blamed the internet.
+  - Someone's linter yelled at them and they ignored it.
+  - An engineer just solved a bug and forgot to commit it.
+  - A sprint planning session spiraled into existential despair.
+  - A dev used ChatGPT to generate code and then blamed ChatGPT.
+  - Someone opened 12 Stack Overflow tabs and read none.
+  - "138 new bugs were created in your codebase"
+  - A user clicked “forgot password”... and never came back.

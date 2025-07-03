@@ -18,7 +18,6 @@ class CommitCategories(StrEnum):
 class Commit(BaseModel):
     """A commit message."""
 
-    message: list[str]
     categories: dict[CommitCategories, list[str]]
     endings: list[str]
 
@@ -30,6 +29,7 @@ class Content(BaseModel):
     joke: list[str]
     roast: list[str]
     commit: Commit
+    wait_items: list[str]
 
 
 FILE_PATH = Path(__file__).parent / "content.yaml"
