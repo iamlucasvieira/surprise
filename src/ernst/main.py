@@ -60,7 +60,9 @@ def commit(
     """
     Get a commit message
     """
-    typer.echo(get_commit_message(category, description))
+    typer.echo("")
+    typer.secho(get_commit_message(category, description), fg=typer.colors.GREEN)
+    typer.echo("")
 
 
 @app.command()

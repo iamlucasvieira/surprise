@@ -6,10 +6,11 @@ import random
 
 def get_commit_message(category: CommitCategories, description: str) -> str:
     """Get a commit message"""
-    template = random.choice(data.commit.templates)
+    template = "{category}: {category_str} {description}, {ending}"
     message = template.format(
-        category=random.choice(data.commit.categories[category]),
-        description=description,
+        category=category.strip(),
+        category_str=random.choice(data.commit.categories[category]),
+        description=description.strip(),
         ending=random.choice(data.commit.endings),
     )
     return message

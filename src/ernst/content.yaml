@@ -108,8 +108,8 @@ commit:
       - added
       - unleashed
       - enabled
-      - conjured
-      - summoned
+      - implemented
+      - created
     test:
       - asserted
       - provoked
@@ -119,13 +119,12 @@ commit:
     refactor:
       - refactored
       - modified
-      - made it worst
-      - made it slower
+      - worsened
+      - broke
 
   endings:
     - for now.
     - probably.
-    - I just don't know.
     - I hope so.
     - I'm not sure.
     - don't ask how.
@@ -135,8 +134,3 @@ commit:
     - in exchange for my soul.
     - randomly.
     - with style.
-
-  templates:
-    - "{category} {description}, {ending}"
-    - "{category} {description} {ending}"
-    - "Turns out, I had to {category} the {description}, {ending}"

@@ -21,7 +21,6 @@ class Commit(BaseModel):
     message: list[str]
     categories: dict[CommitCategories, list[str]]
     endings: list[str]
-    templates: list[str]
 
 
 class Content(BaseModel):
